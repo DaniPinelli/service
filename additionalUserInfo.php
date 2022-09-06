@@ -34,7 +34,9 @@ switch ($_SERVER['REQUEST_METHOD']) {
                 echo "All fields are required";
             }
         } else {
-            echo "You have to be an administrator to make changes";
+            echo "You have to be an administrator or school user to make changes";
         }
         break;
-}         
+} 
+
+
